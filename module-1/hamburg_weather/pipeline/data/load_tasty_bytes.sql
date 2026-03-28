@@ -80,6 +80,12 @@ CREATE OR ALTER TABLE {{env}}_tasty_bytes.raw_pos.franchise
    phone_number VARCHAR(16777216)
 );
 
+CREATE OR ALTER TABLE {{env}}_tasty_bytes.raw_pos.Products
+(
+   product_id NUMBER(38,0),
+   product_name VARCHAR(16777216),
+   product_type VARCHAR(16777216),
+);
 
 -- location table build
 CREATE OR ALTER TABLE {{env}}_tasty_bytes.raw_pos.location
