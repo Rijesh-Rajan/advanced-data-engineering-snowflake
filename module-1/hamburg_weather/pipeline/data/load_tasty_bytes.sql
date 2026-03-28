@@ -84,7 +84,7 @@ CREATE OR ALTER TABLE {{env}}_tasty_bytes.raw_pos.Products
 (
    product_id NUMBER(38,0),
    product_name VARCHAR(16777216),
-   product_type VARCHAR(16777216),
+   product_type VARCHAR(16777216)
 );
 
 -- location table build
